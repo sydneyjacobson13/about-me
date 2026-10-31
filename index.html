@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
    <link href="https://googleapis.com/css2?family=Cinzel:wght@400;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body> 
     <img src = "images/me.jpeg" alt = "Profile photo of Sydney Jacobson">
@@ -23,6 +24,15 @@
 
     </p>
     <a href = "https://github.com" target = "_blank">View My GitHub Code</a>
+<section>
+    <h2>Say hello</h2>
+    <label for ="visitor-name">Your name</label>
+    <input id="visitor-name" type="text">
+    <button id="greet-button" type="button">Say hello</button>
+    <p id ="greeting" aria-live="polite" ></p>
+
+</section>
+<button id ="theme-button" type ="button"> Change theme</button>
 
 </body> 
 </html>

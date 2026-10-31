@@ -19,4 +19,17 @@ img {
     border-radius: 50%;
 }
 
+body.dark-theme{
+    background-color: #4c7ba7;
+    color: #ffffff;
+}
+
+body.dark-theme input,
+body.dark-theme button {
+    background-color: #102a43;
+    color: #ffffff;
+    border: 1px solid #486581;
+}
+
+
 
